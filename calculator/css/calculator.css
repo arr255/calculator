@@ -1,0 +1,58 @@
+body{
+    background-color: ivory;
+}
+h1{
+    text-align: center;
+    text-decoration:underline;
+    text-shadow: 2px,2px,2px,gray;
+    color:purple;
+}
+#input,#output{
+    position: relative;
+    width:1300px;
+    height:48px;
+    left:40px;
+    text-align: right;
+    font-size: 32px;
+    color:#BCBCE2;
+    background-color:#423939;
+    border:5px solid lightblue;
+    border-bottom:none;
+    padding:10px;
+}
+#output{
+    border-top:none;
+}
+div.key{
+    width:90%;
+    height:500px;
+    background-color: #423939;
+    position: fixed;
+    top:256px;
+    left:2%;
+    width:90%;
+    padding:1px;
+}
+.inBorder{
+    border-style: solid;
+    border-color:gray;
+    padding:20px;
+}
+table button{
+    width:72px;
+    height:36px;
+    color:white;
+    background-color: #3B2D2D;
+}
+table button:hover{
+    border:2px solid lightblue;
+}
+#equal{
+    position:relative;
+    left:304px;
+    bottom:80px;
+    height:76px;
+}
+#back{
+    background-color: red;
+}
